@@ -9,6 +9,3 @@ def Login (request):
 #Metodo de vizualización de Login
 def Formatos (request):
     return render(request,"Formatos.html")
-
-def Actas(request):
-    return render(request,"Actas.html")
