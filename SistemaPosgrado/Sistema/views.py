@@ -12,3 +12,4 @@ def Formatos (request):
 
 def Actas (request):
     return render(request,"Actas.html")
+#hshshshshshshshshshshshshshshhshshshs
