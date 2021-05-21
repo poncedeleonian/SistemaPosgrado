@@ -1,0 +1,54 @@
+ html, body {/* codigo parte de arriba */
+     background-image: url('../assets/images/fondo_login.jpg');
+     height: 100%;
+ }
+
+ #img-login {
+     width: 200px;
+     margin-bottom: 25px;
+     position: relative;
+     left: 30%;
+ }
+
+.container{
+ height: 100%;
+align-content: center;
+}
+
+.card{
+    width: 500px;
+    height: 610px;
+    background: rgba(255, 255, 255, 0.692);
+    border-radius: 20px;
+    border: 17px solid rgba(255, 255, 255, 0.1);
+    border-radius: 20px;
+    opacity: .9;
+    margin-top: 8px;
+}
+
+label {
+    font-size: 20px;
+}
+.input-login {
+    border: 1px solid rgba(0, 0, 0, 0.72);
+    box-sizing: border-box;
+    border-radius: 30px;
+    background-color: transparent;
+}
+
+.login_btn{
+color: #B595A4;
+background-color: #8D2556;
+width: 100px;
+border-radius: 50px;
+}
+
+.login_btn:hover{
+    color:#B595A4;
+    background-color:rgba(141, 37, 86, 0.78);
+}
+
+#btn-resgistrar {
+    width: 200px;
+    margin-top: 15px;
+}

@@ -1,0 +1,60 @@
+body{
+    background: url(fondo_bolitas.jpg);
+    height: 100%; 
+}
+.R{
+    margin-left: 5%;
+    margin-right: 5%;
+    margin-top: 30px;
+    font-family: 'Roboto'; 
+}
+.R2{
+    margin-top: 30px;
+    font-family: 'Roboto';
+}
+.R3{
+    border-radius: 50px;
+    margin-left: 2%;
+    border: 1px solid #000;
+    height: 27px;
+}
+.R4{
+    margin-top: 20px;
+    font-family: 'Roboto';
+}
+.R5{
+    margin-top: 50px;
+}
+
+.T1{
+    background-color: #672445;
+    color: #B595A4;
+}
+.T2{
+    margin-left: 30%;
+}
+.file {
+    visibility: hidden;
+    margin-bottom: 5%;
+    width:50%;
+    height:40px;
+  }
+.T3{
+    width: 50%;
+}
+.B1{
+    margin-left: 40%;
+    background-color: #672445;
+    color: #B595A4;
+    border-radius: 20px;
+    width: 30%;
+    margin-top: 20px;
+}
+.B2{
+    margin-top: -40px;
+}
+.B3{
+    margin-left: 40%;
+    margin-top: 5%;
+    margin-bottom: 20px;
+}

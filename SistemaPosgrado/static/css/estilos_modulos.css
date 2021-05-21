@@ -1,0 +1,120 @@
+html, body {/* codigo parte de arriba */
+   background-image: url('../assets/images/fondo_escudo.jpg');
+   height: 100%;
+}
+
+ .navbar{
+    background-color:#EAEAEA;
+    margin:0%;
+    padding: 0%;
+ }
+ 
+ #img-logosgob{
+    width: 470px;
+    height: 90px;
+    margin-top: 0px;
+    margin-left: 250px;
+ }
+ 
+ #img-poli{
+    margin-top: -116px;
+    margin-left: 750px;
+    width: 255px;
+    height: 67px;
+ }
+ 
+ #img_logo_upiicsa{
+    position: absolute;
+    z-index: 2;
+    width: 162px;
+    height: 162px;
+    margin-left: -8px;
+    margin-top: -55px;   
+ }
+ 
+ 
+ #label-formatos
+ {
+    font-size: 30px;
+    color: rgba(181, 149, 164, 1);
+    position: absolute;
+    width: 400px;
+    height: 39px;
+    left: 220px;
+    top: 0px;
+ }
+
+ .card{
+   position: absolute;
+    width: 1474px;
+    height: 50px;
+    left: 0px;
+    top: 150px;
+    background: #672445;
+ }
+ 
+ #img-gob{
+   vertical-align: middle;
+   border-style:none;
+    height: 29px;
+    margin-left: 90px;
+ }
+
+  
+  .M{
+      width: 235px;
+      height: 220px;
+      background:#7E5764;
+      border-radius: 20px;
+      border: 5px solid rgba(252, 249, 249, 0.253);
+      border-radius: 20px;
+      margin-top: 100px;
+      margin-left: 100px;
+     
+     }
+
+   #img-alumno{
+      width: 100px;
+      height: 100px;
+      margin-left: 40px;
+   }
+
+   .login_btn{
+   color: #B595A4;
+   background-color: #8D2556;
+   width: 212px;
+   border-radius: 30px;
+   margin-top: 20px;
+   }
+   
+   .login_btn:hover{
+         color:#B595A4;
+         background-color:rgba(141, 37, 86, 0.78);
+   }
+
+   .Alumnos{
+      margin-left: 65px;
+   }
+   .Dep_posgrado{
+      margin-top: -55px;
+      margin-left: 65px;
+   }
+
+   .Gestion{
+      margin-left: 400px;
+      margin-top: -585px;
+   }
+   .Coordinadores{
+      margin-top: -55px;
+      margin-left: 0px;
+   }
+
+
+   .Sepi{
+      margin-top: -585px;
+      margin-left: 323px;
+   }
+
+
+ /* termina codigo parte de arriba */
+ 

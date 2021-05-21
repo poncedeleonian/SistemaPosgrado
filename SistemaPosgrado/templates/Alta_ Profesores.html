@@ -1,0 +1,129 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <!-- sirve para que nuestra pagina se vea bien en todos los dispositivos -->
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Registro de calificaciones</title>
+    <link rel="stylesheet" href="css/bootstrap.min.css">
+    <link rel="stylesheet" href="css/estilos_Altas_Bajas Profesores.css">
+    <link rel="stylesheet" href="css/fontello.css">
+    <script src="js/jquery-3.6.0.min.js"></script>
+    <script src="js/bootstrap.min.js"></script>
+</head>
+<body>
+</head>
+<body>
+    <div class="der" >
+        <form action="" class="R">
+            <div class="form-group row R2" >
+                <label for="Numero de empleado" class="col-sm-1 col-form-label">Número de empleado</label>
+                <input type="number" class="form-control col-sm-4 R3" id="numero_empleado" placeholder="1-2-3...">
+            </div>
+            <div class="form-row R2" >
+                <div class="form-group col-md-4 text-center">
+                    <label for="Nom_A">Nombre (s)</label>
+                    <input type="text" class="form-control R3" id="Nom_A" >
+                </div>
+                <div class="form-group col-md-4 text-center">
+                    <label for="AP_A">Apellido Paterno</label>
+                    <input type="text" class="form-control R3" id="AP_A">
+                </div>
+                <div class="form-group col-md-4 text-center">
+                    <label for="AM_A">Apellido Materno</label>
+                    <input type="text" class="form-control R3" id="AM_A">
+                </div>
+            </div>
+            
+            <div class="form-row R2" >
+                <div class="form-group col-md-2 text-center">
+                    <label for="Edad_A">Edad</label>
+                    <input type="number" class="form-control R3" id="Edad_A">
+                </div>
+                <div class="form-group col-md-2 text-center">
+                    <label for="Sexo_A">Sexo</label>
+                    <select class="form-control R3" id="Sexo_A">
+                        <option class="is-invalid"> ... </option>
+                        <option value="F"> Femenino </option>
+                        <option value="M"> Masculino </option>
+                      </select>
+                </div>
+                <div class="form-group col-md-2 text-center">
+                    <label for="Tipo_A">Tipo</label>
+                    <select class="form-control R3" id="Tipo_A">
+                        <option class="is-invalid"> ... </option>
+                        <option value="TC_A"> Tiempo Completo </option>
+                        <option value="TP_A"> Tiempo Parcial </option>
+                    </select>
+                </div>
+                <div class="form-group col-md-6 text-center">
+                    <label for="Tel_A">Telefono</label>
+                    <input type="number" class="form-control R3" id="Tel_A" placeholder="1-2-3-4...">
+                </div>
+            </div>
+            <div class="form-group form-inline row R2" >
+                <label for="Correo_A" class="col-sm-1 col-form-label"> Correo </label>
+                <div class="input-group col-md-6">
+                    <div class="input-group-prepend">
+                      <div class="input-group-text R5">@</div>
+                    </div>
+                    <input type="text" class=" form-control R3 R4" id="Correo_A" placeholder="Username">
+                </div>
+            </div>
+            <label for="" class="R5"> <span class="R5"> Dirección </span>  </label>
+            <div class="form-group row R2" >
+                <label for="Calle" class="col-sm-1 col-form-label"> Calle </label>
+                <input type="text" class=" form-control col-sm-4 R3" id="Calle">
+            </div>
+            <div class="form-row R2" >
+                <div class="form-group col-md-2 text-center">
+                    <label for="N_In_A">#Interior</label>
+                    <input type="number" class="form-control R3" id="N_In_A">
+                </div>
+                <div class="form-group col-md-2 text-center">
+                    <label for="N_Ex_A">#Exterior</label>
+                    <input type="number" class="form-control R3" id="N_Ex_A">
+                </div>
+                <div class="form-group col-md-2 text-center">
+                    <label for="C.P_A">C.P.</label>
+                    <input type="number" class="form-control R3" id="C.P_A">
+                </div>
+                <div class="form-group col-md-6 text-center">
+                    <label for="Col_A">Colonia</label>
+                    <input type="text" class="form-control R3" id="Col_A">
+                </div>
+            </div>
+            <div class="form-group row R2">
+                <label for="Est_A" class="col-sm-1 col-form-label"> Estado </label>
+                <select class="form-control col-sm-9 R7" id="Est_A">
+                  <option class="is-invalid"> ... </option>
+                  <option value="1"> Distrito Federal </option>
+                </select>
+            </div>
+            <div class="form-group row R2">
+                <label for="Mun_A" class="col-sm-1 col-form-label"> Municipio </label>
+                <select class="form-control col-sm-9 R7" id="Mun_A">
+                  <option class="is-invalid"> ... </option>
+                  <option value="1"> Azcapotzalco </option>
+                  <option value="2"> Coyoacán </option>
+                  <option value="3"> Cuajimalpa de Morelos </option>
+                  <option value="4"> Gustavo A. Madero </option>
+                  <option value="5"> Iztacalco </option>
+                </select>
+            </div>
+            <!-- Por si nos arrepentimos y mejor tamos que ellos lo ingresen solos
+            <div class="form-group row R2" >
+                <label for="Est_A" class="col-sm-1 col-form-label"> Estado </label>
+                <input type="text" class="col-sm-4 R3" id="Est_A">
+            </div>
+            <div class="form-group row R2" >
+                <label for="Mun_A" class="col-sm-1 col-form-label"> Municipio </label>
+                <input type="text" class="col-sm-4 R3" id="Mun_A">
+            </div>
+            -->
+            <button type="submit" class="btn B1 " id="btn-Re_Al" > Registrar </button>
+        </form>
+      </div>
+    </section>
+</body>
+</html>

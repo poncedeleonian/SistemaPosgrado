@@ -1,0 +1,36 @@
+html, body {/* codigo parte de arriba */
+   background-image: url('../assets/images/fondo_escudo.jpg');
+   height: 100%;
+   position: relative;
+}
+
+   
+/*estilo tablas*/
+
+
+   .input-login {
+         border: 1px solid rgba(0, 0, 0, 0.72);
+         box-sizing: border-box;
+         border-radius: 30px;
+         background-color: transparent;
+         height: 27px;
+   }
+
+   .card-body{
+      width: 500px;
+      margin-left: 430px;
+      margin-top: 160px;
+   }
+
+   .reg_btn{
+   color: #B595A4;
+   background-color: #8D2556;
+   width: 175px;
+   border-radius: 50px;
+   margin-left: 130px;
+   margin-top: 5px;
+   }
+   .reg_btn:hover{
+   color:#B595A4;
+   background-color:rgba(141, 37, 86, 0.78);
+   }
